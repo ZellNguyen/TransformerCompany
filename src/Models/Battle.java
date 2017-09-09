@@ -1,4 +1,4 @@
-package Controllers;
+package Models;
 
 import Models.BattleResult;
 import Models.Team;
@@ -69,7 +69,7 @@ public class Battle {
 
     public Team getWinner() {
         if(!didFinish)
-            throw new IllegalStateException("Controllers.Battle hasn't started yet");
+            throw new IllegalStateException("Models.Battle hasn't started yet");
 
         if(autobot.score > deception.score) return autobot;
         if(autobot.score < deception.score) return deception;
@@ -79,7 +79,7 @@ public class Battle {
 
     public ArrayList<Transformer> getSurvivors() {
         if(!didFinish)
-            throw new IllegalStateException("Controllers.Battle hasn't started yet");
+            throw new IllegalStateException("Models.Battle hasn't started yet");
 
         if(isAllDestroyed) return new ArrayList<>();
         if(getWinner().side == TransformerSide.AUTOBOT)

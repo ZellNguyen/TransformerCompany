@@ -1,6 +1,6 @@
-package Views;
+package Interface;
 
-import Controllers.Battle;
+import Models.Battle;
 import Models.Transformer;
 
 /**
