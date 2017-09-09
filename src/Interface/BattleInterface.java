@@ -19,7 +19,11 @@ public class BattleInterface {
                 System.out.println("Tie game");
             else {
                 System.out.println("Number of battles: " + battle.numberOfBattles());
-                System.out.println("Winning team: " + battle.getWinner());
+                System.out.print("Winning team (" + battle.getWinner() + "): ");
+                for(Transformer tf  : battle.getWinner().members) {
+                    System.out.print(tf.getName() + ", ");
+                }
+                System.out.println();
                 System.out.print("Survivors from the losing team: ");
                 for (Transformer tf : battle.getSurvivors())
                     System.out.print(tf.getName() + ", ");
