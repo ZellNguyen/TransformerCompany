@@ -10,7 +10,7 @@ public class Transformer implements Comparable<Transformer>{
     // Bosses
     private static final String OP = "Optimus Prime", PRE = "Predaking";
 
-    public Transformer(String name, TransformerSide side, int strength, int intelligence, int speed, int endurance, int rank, int courage, int firepower, int skill) throws IllegalArgumentException {
+    public Transformer(String name, TransformerSide side, int strength, int intelligence, int speed, int endurance, int rank, int courage, int firepower, int skill) {
         this.name = name;
         this.side = side;
 

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fea7338a-7ecb-4445-b8fa-afc87968f8d9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/battle.csv" afterPath="$PROJECT_DIR$/battle.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Battle.java" afterPath="$PROJECT_DIR$/src/Battle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Transformer.java" afterPath="$PROJECT_DIR$/src/Transformer.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,21 +18,17 @@
       <file leaf-file-name="Transformer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Transformer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
-              <caret line="74" column="23" lean-forward="false" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
+            <state relative-caret-position="167">
+              <caret line="12" column="164" lean-forward="false" selection-start-line="12" selection-start-column="164" selection-end-line="12" selection-end-column="164" />
               <folding>
-                <element signature="e#2674#2675#0" expanded="true" />
-                <element signature="e#2713#2714#0" expanded="true" />
-                <element signature="e#2747#2748#0" expanded="true" />
-                <element signature="e#2825#2826#0" expanded="true" />
-                <element signature="e#2882#2883#0" expanded="true" />
-                <element signature="e#2923#2924#0" expanded="true" />
+                <element signature="e#2642#2643#0" expanded="true" />
+                <element signature="e#2681#2682#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BattleResult.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BattleResult.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BattleResult.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -46,18 +41,10 @@
       <file leaf-file-name="Team.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Team.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
+            <state relative-caret-position="533">
               <caret line="51" column="36" lean-forward="false" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#717#718#0" expanded="true" />
-                <element signature="e#745#746#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-                <element signature="e#807#808#0" expanded="true" />
-                <element signature="e#833#834#0" expanded="true" />
-                <element signature="e#874#875#0" expanded="true" />
-                <element signature="e#915#916#0" expanded="true" />
-                <element signature="e#956#957#0" expanded="true" />
                 <element signature="e#1240#1241#0" expanded="true" />
                 <element signature="e#1283#1284#0" expanded="true" />
               </folding>
@@ -65,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Battle.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Battle.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Battle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1245">
-              <caret line="85" column="42" lean-forward="false" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
+            <state relative-caret-position="-416">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#readCSV#0;class#Battle#0" expanded="false" />
@@ -126,9 +113,9 @@
         <option value="$PROJECT_DIR$/src/BattleResult.java" />
         <option value="$PROJECT_DIR$/src/TransformerSide.java" />
         <option value="$PROJECT_DIR$/src/Team.java" />
-        <option value="$PROJECT_DIR$/src/Transformer.java" />
         <option value="$PROJECT_DIR$/src/BattleInterface.java" />
         <option value="$PROJECT_DIR$/src/Battle.java" />
+        <option value="$PROJECT_DIR$/src/Transformer.java" />
       </list>
     </option>
   </component>
@@ -526,12 +513,8 @@
         <state relative-caret-position="1110">
           <caret line="74" column="23" lean-forward="false" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
           <folding>
-            <element signature="e#2674#2675#0" expanded="true" />
-            <element signature="e#2713#2714#0" expanded="true" />
-            <element signature="e#2747#2748#0" expanded="true" />
-            <element signature="e#2825#2826#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2923#2924#0" expanded="true" />
+            <element signature="e#2642#2643#0" expanded="true" />
+            <element signature="e#2681#2682#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -550,14 +533,6 @@
           <caret line="51" column="36" lean-forward="false" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#915#916#0" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
             <element signature="e#1240#1241#0" expanded="true" />
             <element signature="e#1283#1284#0" expanded="true" />
           </folding>
@@ -612,41 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Team.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="36" lean-forward="false" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#915#916#0" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="true" />
-            <element signature="e#1283#1284#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Transformer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="74" column="23" lean-forward="false" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
-          <folding>
-            <element signature="e#2674#2675#0" expanded="true" />
-            <element signature="e#2713#2714#0" expanded="true" />
-            <element signature="e#2747#2748#0" expanded="true" />
-            <element signature="e#2825#2826#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2923#2924#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BattleInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -655,22 +595,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Battle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="85" column="42" lean-forward="false" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#readCSV#0;class#Battle#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BattleResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Team.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="51" column="36" lean-forward="false" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Transformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="12" column="164" lean-forward="false" selection-start-line="12" selection-start-column="164" selection-end-line="12" selection-end-column="164" />
+          <folding>
+            <element signature="e#2642#2643#0" expanded="true" />
+            <element signature="e#2681#2682#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Battle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-416">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#readCSV#0;class#Battle#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
