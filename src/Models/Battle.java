@@ -1,10 +1,5 @@
 package Models;
 
-import Models.BattleResult;
-import Models.Team;
-import Models.Transformer;
-import Models.TransformerSide;
-
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
