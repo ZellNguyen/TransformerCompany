@@ -82,6 +82,7 @@ public class Battle {
             throw new IllegalStateException("Models.Battle hasn't started yet");
 
         if(isAllDestroyed) return new ArrayList<>();
+
         if(getWinner().side == TransformerSide.AUTOBOT)
             return deception.getSurvivors();
         if(getWinner().side == TransformerSide.DECEPTICON)

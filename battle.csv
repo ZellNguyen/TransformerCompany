@@ -1,4 +1,4 @@
-Name,Side,Strength,Intelligence,Speed,Endurance,Rank,Courage,Firepower,Skill
+Name (String) ,Side (A or D),Strength (int),Intelligence (int),Speed (int),Endurance (int),Rank (int),Courage (int),Firepower (int),Skill (int)
 Optimus Prime,A,10,10,8,10,10,10,8,10
 BumbleBee,A,2,8,4,7,7,10,1,7
 Breakdown,D,9,7,8,9,6,5,7,4
