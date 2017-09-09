@@ -11,4 +11,4 @@ It takes a csv file (battle.csv) as the input and will make a report about how m
 ## Assumption: 
 * The input is always valid. A valid input must have the format described in the first row of the csv file.
 
-_It's a very fun coding challenge to do! Thank you for giving me this challenge. I really looking forward to talking with you guys about what I wrote_
+_It's a very fun coding challenge to do! Thank you for giving me this challenge. I hope the code is readable and easy to understand at the first glance. I really looking forward to working with you guys!_
