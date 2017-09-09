@@ -90,6 +90,9 @@ public class Battle {
         String csvSplitBy = ",";
         try {
             br = new BufferedReader(new FileReader(csvFile));
+            // Skip the first line
+            br.readLine();
+
             while ((line = br.readLine()) != null) {
                 //use comma as separator
                 String[] args = line.split(csvSplitBy);

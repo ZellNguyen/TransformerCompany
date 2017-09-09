@@ -1,3 +1,6 @@
-Optimus Prime,A,10,6,6,5,3,1,3,10
-BumbleBee,A,4,6,7,2,7,7,7,9
-Hawkeye,D,9,7,8,9,6,5,7,4
+Name,Side,Strength,Intelligence,Speed,Endurance,Rank,Courage,Firepower,Skill
+Optimus Prime,A,10,10,8,10,10,10,8,10
+BumbleBee,A,2,8,4,7,7,10,1,7
+Breakdown,D,9,7,8,9,6,5,7,4
+Cyclonus,D,8,3,4,1,1,10,4,5
+Divebomb,D,7,8,6,7,6,8,7,7
