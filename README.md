@@ -11,5 +11,6 @@ It takes a csv file (battle.csv) as the input and will make a report about how m
 
 ## Assumption: 
 * The input is always valid. A valid input must have the format described in the first row of the csv file.
+* Transformers are sorted by rank in ascending order.
 
 _It's a very fun coding challenge to do! Thank you for giving me this challenge. I hope the code is readable and easy to understand. I really looking forward to working with you guys!_
