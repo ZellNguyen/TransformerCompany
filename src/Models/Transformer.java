@@ -1,3 +1,5 @@
+package Models;
+
 /**
  * Created by hoa_nguyen on 2017-09-08.
  */
@@ -83,5 +85,14 @@ public class Transformer implements Comparable<Transformer>{
     @Override
     public int compareTo(Transformer o) {
         return this.rank - o.rank;
+    }
+
+    /** Getters **/
+    public String getName() {
+        return name;
+    }
+
+    public TransformerSide getSide() {
+        return side;
     }
 }

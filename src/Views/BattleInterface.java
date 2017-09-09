@@ -1,3 +1,8 @@
+package Views;
+
+import Controllers.Battle;
+import Models.Transformer;
+
 /**
  * Created by hoa_nguyen on 2017-09-08.
  */
@@ -17,7 +22,7 @@ public class BattleInterface {
                 System.out.println("Winning team: " + battle.getWinner());
                 System.out.print("Survivors from the losing team: ");
                 for (Transformer tf : battle.getSurvivors())
-                    System.out.print(tf.name + ", ");
+                    System.out.print(tf.getName() + ", ");
             }
         }
     }

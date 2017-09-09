@@ -1,3 +1,5 @@
+package Models;
+
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -5,9 +7,9 @@ import java.util.Collections;
  * Created by hoa_nguyen on 2017-09-08.
  */
 public class Team {
-    TransformerSide side;
-    ArrayList<Transformer> members;
-    int score; // number of opponents eliminated
+    public TransformerSide side;
+    public ArrayList<Transformer> members;
+    public int score; // number of opponents eliminated
 
     // I create 2 singletons so that no other team can be created
     public static Team AUTOBOT = new Team(TransformerSide.AUTOBOT), DECEPTION = new Team(TransformerSide.DECEPTICON);

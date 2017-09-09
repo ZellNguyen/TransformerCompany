@@ -1,3 +1,5 @@
+package Models;
+
 /**
  * Created by hoa_nguyen on 2017-09-08.
  */

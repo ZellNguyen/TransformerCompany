@@ -1,3 +1,10 @@
+package Controllers;
+
+import Models.BattleResult;
+import Models.Team;
+import Models.Transformer;
+import Models.TransformerSide;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -9,7 +16,7 @@ import java.util.ArrayList;
  */
 public class Battle {
     Team autobot = Team.AUTOBOT, deception = Team.DECEPTION;
-    boolean didFinish = false, isAllDestroyed = false;
+    public boolean didFinish = false, isAllDestroyed = false;
 
     public Battle() {
         this.readCSV("battle.csv");
@@ -62,7 +69,7 @@ public class Battle {
 
     public Team getWinner() {
         if(!didFinish)
-            throw new IllegalStateException("Battle hasn't started yet");
+            throw new IllegalStateException("Controllers.Battle hasn't started yet");
 
         if(autobot.score > deception.score) return autobot;
         if(autobot.score < deception.score) return deception;
@@ -72,7 +79,7 @@ public class Battle {
 
     public ArrayList<Transformer> getSurvivors() {
         if(!didFinish)
-            throw new IllegalStateException("Battle hasn't started yet");
+            throw new IllegalStateException("Controllers.Battle hasn't started yet");
 
         if(isAllDestroyed) return new ArrayList<>();
         if(getWinner().side == TransformerSide.AUTOBOT)
@@ -118,7 +125,7 @@ public class Battle {
 
                 Transformer tf = new Transformer(name, side, strength, intelligence, speed, endurance, rank, courage, firepower, skill);
 
-                if(tf.side == TransformerSide.AUTOBOT)
+                if(tf.getSide() == TransformerSide.AUTOBOT)
                     autobot.addMember(tf);
                 else
                     deception.addMember(tf);
